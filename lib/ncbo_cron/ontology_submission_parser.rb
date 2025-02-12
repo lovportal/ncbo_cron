@@ -178,7 +178,7 @@ module NcboCron
           parsed = sub.ready?(status: [:rdf, :rdf_labels])
 
           if parsed
-            archive_old_submissions(multi_logger, sub) if actions[:process_rdf]
+            archive_old_submissions(multi_logger, sub) if actions[:archive]
             process_annotator(multi_logger, sub) if actions[:process_annotator]
             multi_logger.debug "Completed processing of #{submission_id} in #{(Time.now - t0).to_f.round(2)}s"
           else

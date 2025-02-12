@@ -16,7 +16,8 @@ module NcboCron
         :run_metrics => true,
         :process_annotator => true,
         :diff => true,
-        :remote_pull => false
+        :remote_pull => false,
+        :archive => false
       }
 
       class RemoteFileException < StandardError
