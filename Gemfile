@@ -28,7 +28,7 @@ gem 'rackup'
 
 
 gem 'goo', github: 'ontoportal-lirmm/goo', branch: 'feature/migrate-ruby-3.2'
-gem 'ontologies_linked_data', github: 'ontoportal-lirmm/ontologies_linked_data', branch: 'feature/migrate-ruby-3.2'
+gem 'ontologies_linked_data', github: 'lovportal/ontologies_linked_data', branch: 'lovportal-migration'
 gem 'sparql-client', github: 'ontoportal-lirmm/sparql-client', branch: 'development'
 gem 'ncbo_annotator', github: 'ontoportal-lirmm/ncbo_annotator', branch: 'development'
 
